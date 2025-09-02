@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>This is a test site</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on This is a test site</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 16:03:03 +0200</lastBuildDate>
@@ -15,6 +15,15 @@
       <guid>//localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Test &lt;strong&gt;bold&lt;/strong&gt; test &lt;em&gt;markdown&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi 👋 I’m John Doe, a PhD student in Computer Science at XYZ University.&lt;br&gt;
+My research focuses on distributed systems and AI applications.&lt;/p&gt;
+&lt;p&gt;Outside of research, I enjoy teaching, open-source development, and hiking.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

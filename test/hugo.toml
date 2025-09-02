@@ -2,8 +2,21 @@ languageCode = 'en-us'
 title = 'This is a test site'
 theme = 'PaperMod'
 
-[params]
-  subtitle = 'subtitle'
+[params.profileMode]
+  enabled = true
+  title = "John Doe"
+  subtitle = "PhD Student in Computer Science"
+  imageUrl = "images/avatar.jpg"   # put your image in /static/images/avatar.jpg
+  imageWidth = 120
+  imageHeight = 120
+
+[[params.profileMode.buttons]]
+  name = "About"
+  url = "/about/"
+
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "/posts/"
 
 [caches]
   [caches.images]
