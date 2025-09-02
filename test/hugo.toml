@@ -2,6 +2,9 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
 
+[params]
+  subtitle = 'subtitle'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
