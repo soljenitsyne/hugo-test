@@ -1,5 +1,5 @@
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'This is a test site'
 theme = 'PaperMod'
 
 [params]
